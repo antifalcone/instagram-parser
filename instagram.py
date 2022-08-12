@@ -89,7 +89,7 @@ def tagged_media_account(id_target):
         print(dicta)
 client = Client()
 client.login(USERNAME,PASSWORD)
-id_target = client.user_id_from_username('pavel_shvaytsburg')
+id_target = client.user_id_from_username('')
 account_info(id_target)
 medias_account(id_target)
 tagged_media_account(id_target)
